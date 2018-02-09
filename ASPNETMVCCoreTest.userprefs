@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{2368F1BE-C0F1-488C-A3DC-EF3802C54734}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="ASPNETMVCCoreTest Status">
     <Files>
-      <File FileName="Program.cs" Line="18" Column="24" />
+      <File FileName="Program.cs" Line="12" Column="2" />
+      <File FileName="README.md" Line="13" Column="147" />
       <File FileName="ASPNETMVCCoreTest Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
