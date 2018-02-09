@@ -14,7 +14,29 @@ namespace ASPNETMVCCoreTest
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+
+            var seed = args.Contains("/seed");
+            if (seed)
+            {
+                args = args.Except(new[] { "/seed" }).ToArray();
+            }
+
+            var host = BuildWebHost(args);
+
+            if (seed)
+            {
+                SeedConfigurationDbData.EnsureSeedData(host.Services);
+                //SeedAspNetSystemAccount.EnsureSeedData(host.Services);
+            }
+
+            host.Run();
+
+
+
+            //BuildWebHost(args).Run();
+
+
+
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
