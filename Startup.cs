@@ -55,6 +55,7 @@ namespace ASPNETMVCCoreTest
 
             app.UseStaticFiles();
 
+            // Possibly need to change this:
             app.UseAuthentication();
 
             app.UseMvc(routes =>
