@@ -12,7 +12,7 @@ To create a solution / project from scratch, you need to use the Terminal comman
 
 Important step to configuring ASP.NET Identity, IdentityServer4, MySQL is to create the migrations as outlined here:
 
-http://docs.identityserver.io/en/release/quickstarts/8_entity_framework.html
+[IdentityServer4 and Entity Framework](http://docs.identityserver.io/en/release/quickstarts/8_entity_framework.html)
 
 The two migration steps are about halfway down the page:
 
