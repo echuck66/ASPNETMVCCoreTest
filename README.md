@@ -14,7 +14,7 @@ Important step to configuring ASP.NET Identity, IdentityServer4, MySQL is to cre
 
 [IdentityServer4 and Entity Framework](http://docs.identityserver.io/en/release/quickstarts/8_entity_framework.html)
 
-The two migration steps are about halfway down the page:
+The two migration steps are about halfway down the page.
 
 ### Migration for PersistedGrantDbContext:
 
