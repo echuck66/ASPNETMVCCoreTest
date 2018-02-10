@@ -26,7 +26,7 @@ namespace ASPNETMVCCoreTest
             if (seed)
             {
                 SeedConfigurationDbData.EnsureSeedData(host.Services);
-                //SeedAspNetSystemAccount.EnsureSeedData(host.Services);
+                SeedAspNetSystemAccount.EnsureSeedData(host.Services);
             }
 
             host.Run();
